@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+.divisoria {
+  width: 100%;
+
+  margin-bottom: 3em;
+}
+
+.mapa {
+  margin: 0 auto;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+
+  -ms-flex-direction: column;
+
+  -webkit-box-direction: normal;
+
+  -webkit-box-orient: vertical;
+
+  -webkit-font-smoothing: antialiased;
+
+  background: #f5f5f5;
+
+  background-image: url("https://cdn.discordapp.com/attachments/541387607649812500/697072173097156638/Sem_Titulo-1.jpg");
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+  color: #eeeeee;
+
+  display: flex;
+
+  flex-direction: column;
+
+  font-family: Montserrat, sans-serif;
+
+  font-size: 1em;
+
+  font-weight: 300;
+
+  min-height: 100vh;
+
+  text-align: justify;
+}
+
+h1 {
+  font-weight: 200;
+
+  font-size: 2.2rem;
+
+  color: #222;
+
+  text-align: center;
+}
+
+#menu {
+  margin: 0 auto;
+
+  width: 100%;
+
+  background: #196606;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+
+  transition: all 1s;
+}
+
+nav::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+nav ul li a:focus {
+  color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+  padding-left: 4px;
+  content: " ▾";
+}
+
+nav ul li ul li {
+  min-width: 190px;
+}
+
+nav ul li ul li a {
+  background: transparent;
+  color: #555;
+  border-bottom: 1px solid #dde0e7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+  background: #eee;
+  color: #111;
+}
+.dropdown {
+  display: none;
+
+  position: absolute;
+
+  background: #fff;
+
+  box-shadow: 0 4px 10px rgba(10, 20, 30, 0.4);
+}
+
+.imagembarra {
+  width: 100%;
+}
+
+.dropdown {
+  display: none;
+
+  position: absolute;
+
+  background: #fff;
+
+  box-shadow: 0 4px 10px rgba(10, 20, 30, 0.4);
+}
+
+.duvidas {
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.comoeuchego {
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.mapa {
+  margin: 0 auto;
+
+  max-width: 80vw;
+
+  text-align: center;
+
+  transition: all 1s;
+}
+
+.endereco {
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.texto {
+  margin: 0 auto;
+
+  transition: all 1s;
+
+  text-align: center;
+}
+
+.imagem {
+  margin: 0 auto;
+
+  max-width: 40vw;
+
+  text-align: center;
+
+  transition: all 0.4s;
+}
+
+.bota {
+  margin-top: 5em;
+
+  background-color: #196606;
+
+  color: white;
+
+  width: 12vw;
+
+  border-radius: 2em;
+
+  height: 5.5vw;
+
+  border: none;
+
+  transition: all 1s;
+
+  font-size: 1.25vw;
+
+  cursor: pointer;
+
+  font-family: Montserrat, sans-serif;
+}
+
+.botou {
+  width: 38vw;
+
+  margin: 0 auto;
+
+  transition: all 1s;
+}
+
+#aves {
+  color: white;
+}
+
+.imagematlantica {
+  margin: 0 auto;
+
+  max-width: 40vw;
+
+  text-align: left;
+
+  transition: all 0.4s;
+}
+
+#link:link {
+  color: green;
+
+  text-decoration: none;
+}
+
+#link:visited {
+  color: green;
+
+  text-decoration: none;
+}
+
+#link:hover {
+  color: red;
+
+  text-decoration: none;
+}
+
+#link:active {
+  color: green;
+
+  text-decoration: none;
+}
+#fc {
+  width: 2vw;
+}
+.imagembarra {
+  dpidisplay: none;
+}
+.perguntas {
+  margin: 0 auto;
+  padding-top: 2em;
+}
+.texto {
+  margin-top: 4.5em;
+  transition: all 1s;
+}
+
+.bota1 {
+
+  background-color: #196606;
+
+  color: white;
+
+  width: 12vw;
+
+  border-radius: 2em;
+
+  height: 5.5vw;
+
+  border: none;
+
+  transition: all 1s;
+
+  font-size: 1.25vw;
+
+  cursor: pointer;
+
+  font-family: Montserrat, sans-serif;
+}
